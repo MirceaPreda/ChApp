@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>
+            Dashboard
+        </title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="container">
+            <form action="/dashboard" method="post"></form>
+                <input type="text" name="subiect" placeholder="Subiect">
+                <input type="text" name="locatie" placeholder="Locatie">
+
+                <button class="btn btn-lg upload-btn" type="button">Upload</button>
+                <input type="file" name="upload" id="upload-input" style="display: none">
+
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="/js/upload.js"></script>
+    </body>
+</html>
