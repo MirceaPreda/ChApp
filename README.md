@@ -3,10 +3,9 @@ Done:
 - SignUp
 - Login
 - Password Security
-
+- Upload to local directory
 
 To do:
 
-- Upload to external location
 - Individual chat
 - Group chat
