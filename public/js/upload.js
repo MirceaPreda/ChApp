@@ -16,7 +16,7 @@ $(document).ready(function(){
                 type: 'POST',
                 data: formData,
                 processData: false,
-                contentData: false,
+                contentType: false,
                 success: function(){
                     uploadInput.val('');
                 }
