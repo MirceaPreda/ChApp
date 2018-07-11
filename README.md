@@ -9,3 +9,4 @@ To do:
 
 - Individual chat
 - Group chat
+- Make it nice
