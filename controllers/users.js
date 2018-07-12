@@ -6,7 +6,7 @@ module.exports = function(_, passport, userVal){
         SetRouting: function(router){
             router.get('/', this.indexPage);
             router.get('/signup', this.getSignUp);
-            router.get('/home', this.homePage);
+
 
             router.post('/', userVal.LoginValidation, this.postLogin);
             router.post('/signup', userVal.SignUpValidation, this.postSignUp);
@@ -33,11 +33,7 @@ module.exports = function(_, passport, userVal){
             successRedirect: 'home',
             failureRedirect: '/signup',
             failureFlash: true
-        }),
-
-        homePage: function(req, res){
-            return res.render('home');
-        }
+        })
 
     }
 
