@@ -4,6 +4,7 @@ Done:
 - Login
 - Password Security
 - Upload to local directory
+- Database schemas for users
 
 To do:
 
