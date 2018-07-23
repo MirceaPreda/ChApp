@@ -77,8 +77,23 @@ body {
     margin: 0 auto;
 }
 
+.add-apply {
+    background-color: #4aa1f3;
+    width: 100%;
+    text-shadow: none;
+    color: #fff !important;
+    margin-top: 25px;
+    font-weight: bold;
+}
 
-
+.add-fav {
+    background-color: #4aa1f3;
+    width: 100%;
+    text-shadow: none;
+    color: #fff !important;
+    font-weight: bold;
+    padding: 5px 2px 5px 2px;
+}
 
 
 

@@ -68,7 +68,7 @@
                                             Filtru
                                         </p>
                                         <hr/>
-                                        <select class="" name="country" id="country" >
+                                        <select class="form-control" name="country" id="country" >
                                             <option value="">Filtrare dupa locatie</option>
 											<option>Scoala</option>
 											<option>Firma</option>
@@ -86,6 +86,7 @@
             
             <div class="col-md-9">
                 <div>
+                    <% _.forEach(data, function(val) { %>
                     <div class="category-list">
                         <div class="row">
                             <form action="#" method="post" id="add-fav">
@@ -93,12 +94,12 @@
                                     <div class="thumbnail">
                                        <img alt="">
                                         <div class="caption">
-                                            <h4>Nume</h4>
+                                            <h4><%= val.name %></h4>
                                             
                                             <div class="row">
                                                 <div class="col-xs-12 col-md-6">
                                                     <p>
-                                                        Locatie
+                                                        <%= val.type %>
                                                     </p>
                                                 </div>
                                                 
@@ -114,7 +115,7 @@
                             </form>
                         </div>
                     </div>
-                    
+                    <% }) %>
                 </div>
             </div>
         </div>

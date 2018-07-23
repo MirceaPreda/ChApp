@@ -8,7 +8,8 @@ const simpleDependecies = [
     ['async', 'async'],
     ['mongoose', 'mongoose'],
     ['passport', 'passport'],
-    ['formidable', 'formidable']
+    ['formidable', 'formidable'],
+    ['subiect', './models/subiect']
 ];
 
 simpleDependecies.forEach(function(val) {
